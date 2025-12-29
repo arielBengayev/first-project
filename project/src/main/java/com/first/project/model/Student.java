@@ -7,7 +7,7 @@ import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.io.Serializable;
 
-@Entity @Table(name="student2")
+@Entity @Table(name="student")
 @Getter @Setter
 public class Student implements Serializable {
     private static final long serialVersionUID = 1L;

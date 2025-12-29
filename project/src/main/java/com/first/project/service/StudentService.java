@@ -26,4 +26,8 @@ public class StudentService {
     public void delete(Student student) {
         repository.delete(student);
     }
+
+    public Student findByFullName(String fullName) {
+        return repository.findByFullName(fullName);
+    }
 }
